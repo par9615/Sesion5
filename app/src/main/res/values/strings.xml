@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sesión 5</string>
+    <string name="activity_main_name_hint">Ingrese su nombre</string>
+    <string name="activity_main_phone_hint">Ingrese su teléfono</string>
+    <string name="activity_main_education_label">Escolaridad</string>
+    <string name="activity_main_sex_label">Género</string>
+    <string name="activity_main_book_label">Libro Favorito</string>
+    <string name="activity_main_radio_button_f">Femenino</string>
+    <string name="activity_main_radio_button_m">Masculino</string>
+
+    <string-array name="education_array">
+        <item>Bachillerato</item>
+        <item>Técnico</item>
+        <item>Licenciatura</item>
+        <item>Maestría</item>
+        <item>Doctorado</item>
+    </string-array>
+</resources>
