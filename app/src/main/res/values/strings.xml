@@ -5,8 +5,8 @@
     <string name="activity_main_education_label">Escolaridad</string>
     <string name="activity_main_sex_label">Género</string>
     <string name="activity_main_book_label">Libro Favorito</string>
-    <string name="activity_main_radio_button_f">Femenino</string>
-    <string name="activity_main_radio_button_m">Masculino</string>
+    <string name="activity_main_radio_button_text_f">Femenino</string>
+    <string name="activity_main_radio_button_text_m">Masculino</string>
     <string name="activity_main_clean_button">LIMPIAR</string>
     <string name="activity_main_sport_checkbox">Practica deporte</string>
 

@@ -49,18 +49,20 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:checkedButton="@id/activity_main_radio_button_f">
             <RadioButton
+                android:id="@+id/activity_main_radio_button_f"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:text="@string/activity_main_radio_button_f"
-                android:checked="true"/>
+                android:text="@string/activity_main_radio_button_text_f" />
             <RadioButton
+                android:id="@+id/activity_main_radio_button_m"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight=".5"
-                android:text="@string/activity_main_radio_button_m"/>
+                android:text="@string/activity_main_radio_button_text_m"/>
         </RadioGroup>
 
         <TextView
