@@ -7,6 +7,8 @@
     <string name="activity_main_book_label">Libro Favorito</string>
     <string name="activity_main_radio_button_f">Femenino</string>
     <string name="activity_main_radio_button_m">Masculino</string>
+    <string name="activity_main_clean_button">LIMPIAR</string>
+    <string name="activity_main_sport_checkbox">Practica deporte</string>
 
     <string-array name="education_array">
         <item>Bachillerato</item>
@@ -14,5 +16,13 @@
         <item>Licenciatura</item>
         <item>Maestría</item>
         <item>Doctorado</item>
+    </string-array>
+
+    <string-array name="book_array">
+        <item>Laberinto de la soledad</item>
+        <item>Libertad bajo palabra</item>
+        <item>Pedro Páramo</item>
+        <item>Cien años de soledad</item>
+        <item>Memoria de mis p!#$s tristes</item>
     </string-array>
 </resources>
