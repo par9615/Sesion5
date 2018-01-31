@@ -21,4 +21,9 @@ public class ActivityMain extends AppCompatActivity {
         ///
 
     }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+    }
 }
