@@ -15,27 +15,31 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_weight="1">
             <EditText
+                android:id="@+id/activity_main_name_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/activity_main_name_hint"
                 android:inputType="textPersonName"/>
 
             <EditText
+                android:id="@+id/activity_main_phone_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/activity_main_phone_hint"
                 android:inputType="phone"/>
 
-           <TextView
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:text="@string/activity_main_education_label"
-               android:textColor="@color/colorLabel"
-               android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_main_education_label"
+                android:textColor="@color/colorLabel"
+                android:textSize="20sp"/>
 
             <Spinner
+                android:id="@+id/activity_main_education_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:entries="@array/education_array">
@@ -50,6 +54,7 @@
                 android:layout_marginTop="10dp"/>
 
             <RadioGroup
+                android:id="@+id/activity_main_sex_radio_group"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -82,6 +87,7 @@
                 android:layout_height="wrap_content"
                 />
             <CheckBox
+                android:id="@+id/activity_main_sport_checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/activity_main_sport_checkbox"
@@ -89,6 +95,7 @@
         </LinearLayout>
     </ScrollView>
     <Button
+        android:id="@id/activity_main_clean_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/activity_main_clean_button"/>
