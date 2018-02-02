@@ -9,6 +9,9 @@
     <string name="activity_main_radio_button_text_m">Masculino</string>
     <string name="activity_main_clean_button">LIMPIAR</string>
     <string name="activity_main_sport_checkbox">Practica deporte</string>
+    <string name="activity_main_clean_message">Desea limpiar contenido?</string>
+    <string name="activity_main_clean_ok">OK</string>
+    <string name="activity_main_clean_cancel">CANCEL</string>
 
     <string-array name="education_array">
         <item>Bachillerato</item>
