@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
+    android:padding="@dimen/margin"
     tools:context="com.example.par9615.sesion5.ActivityMain">
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
            android:layout_height="wrap_content"
            android:text="@string/activity_main_education_label"
            android:textColor="@color/colorLabel"
-           android:textSize="20sp"/>
+           android:textSize="@dimen/text"/>
 
         <Spinner
             android:id="@+id/activity_main_education_spinner"
@@ -46,8 +46,8 @@
             android:layout_height="wrap_content"
             android:text="@string/activity_main_sex_label"
             android:textColor="@color/colorLabel"
-            android:textSize="20sp"
-            android:layout_marginTop="10dp"/>
+            android:textSize="@dimen/text"
+            android:layout_marginTop="@dimen/text"/>
 
         <RadioGroup
             android:id="@+id/activity_main_sex_radio_group"
@@ -74,8 +74,8 @@
             android:layout_height="wrap_content"
             android:text="@string/activity_main_book_label"
             android:textColor="@color/colorLabel"
-            android:textSize="20sp"
-            android:layout_marginTop="10dp"/>
+            android:textSize="@dimen/text"
+            android:layout_marginTop="@dimen/margin"/>
 
         <AutoCompleteTextView
             android:id="@+id/activity_main_book_autocomplete"
